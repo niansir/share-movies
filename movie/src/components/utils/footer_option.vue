@@ -1,21 +1,25 @@
 <template>
    <div class="footer">
     <tabbar style="position:fixed">
-      <tabbar-item>
+      <tabbar-item link="/">
         <img slot="icon" src="../../assets/hotwatch.png">
-        <span slot="label">正在热播</span>
+        <span slot="label">
+        正在热播
+          </span>
       </tabbar-item>
       <tabbar-item show-dot>
         <img slot="icon" src="../../assets/shortvideo.png">
         <span slot="label">短视频</span>
       </tabbar-item>
-      <tabbar-item selected>
+      <tabbar-item >
         <img slot="icon" src="../../assets/chat.png">
         <span slot="label">一起来聊</span>
       </tabbar-item>
-      <tabbar-item badge="2">
-        <img slot="icon" src="../../assets/myself.png">
-        <span slot="label">个人中心</span>
+   <tabbar-item badge="2" link="/self">
+       <img slot="icon" src="../../assets/myself.png">
+          <span slot="label">
+          个人中心
+          </span>
       </tabbar-item>
     </tabbar>
     </div>
@@ -35,4 +39,5 @@ export default {
   width: 100%;
   margin-top: 80px;
 }
+
 </style>

@@ -56,9 +56,6 @@ a:active{text-decoration:none;}
 
 .movie_small_title{
   text-align: center;
-
 }
-
-
 
 </style>

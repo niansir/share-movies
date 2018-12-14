@@ -75,9 +75,9 @@
             <img class="hot_people" src="../../assets/hot_people.png">
             <span>观看人数:111</span>
           </div>
-          <a href="#">
+         <router-link to="/movieplayer">
             <img src="http://www.zzyo.cc/upload/vod/2018-12-04/15439145685.jpg" />
-          </a>
+         </router-link>
             <span class="movie_label">候选人</span>
         </flexbox-item>
        <flexbox-item class="movie_small_title">
